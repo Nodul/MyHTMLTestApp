@@ -1,0 +1,21 @@
+p
+{
+	color: red;
+}
+a
+{
+	color: blue;
+}
+body
+{
+	color: navy;
+	background-color : #f5f1de; /* rgb would be rgb(x,y,z) */
+	font-size : px;	
+	font-family : arial,"Times New Roman";
+}
+table, th, td
+{
+	border-style: solid;
+	border-color: black;
+	
+}
