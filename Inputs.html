@@ -3,24 +3,32 @@
 	<head>
 		<title>Input playground - WIP</title>
 		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<h3>Inputs</h3>
-		<h4>Form test</h4>
-		<form action = "contact.php" method="post">
-			<h4>Text</h4>
-			<input type="text" name = "text1">
-				<h4>Textarea</h4>
-				<textarea rows="5" cols="25" name = "textArea1">Muchos textos</textarea>
-				<h4>Select</h4>
-				<p>Yaaay?</p>
-				<select name = "yay">
-					<option>Yaaay!</option>
-					<option value=":/">...yay?</option>
-					<option selected>Start the yay!</option>
-				</select>
-				<p><input type="submit"></p>
-				</form>
-				<p><a href="index.html">Go back to main page</a></p>
-			</body>
-		</html>
+		</head>
+		<body>
+			<h3>Inputs</h3>
+			<h4>Form test</h4>
+			<form action = "contact.php" method="post">
+				<h4>Text</h4>
+				<label for="text1">Text1</label>
+				<input type="text" name = "text1" id="text1">
+					<h4>Textarea</h4>
+					<label for="textArea1">TextArea1</label>
+					<textarea rows="5" cols="25" name = "textArea1" id="textArea1">Muchos textos</textarea>
+					<h4>Select</h4>
+					<p>Yaaay?</p>
+					<label for="yay">Yay</label>
+					<select name = "yay" id = "yay">
+						<optgroup label="Yay1">
+							<option>Yaaay!</option>
+							<option value=":/">...yay?</option>
+						</optgroup>
+						<optgroup label="Yay2">
+							<option selected>Start the yay!</option>
+							<option>Even more yaay!</option>
+						</optgroup>
+					</select>
+					<p><input type="submit"></p>
+					</form>
+					<p><a href="index.html">Go back to main page</a></p>
+				</body>
+			</html>

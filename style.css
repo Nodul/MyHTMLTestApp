@@ -17,5 +17,9 @@ table, th, td
 {
 	border-style: solid;
 	border-color: black;
-	
+	caption-side: bottom;
+}
+thead
+{
+	text-transform:UPPERCASE;
 }
